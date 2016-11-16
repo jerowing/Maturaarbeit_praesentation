@@ -1,0 +1,286 @@
+\documentclass[xcolor=dvipsnames]{beamer} %[xcolor = für mehr verfügbare Farben]
+
+% Setup appearance:
+\usetheme{CambridgeUS}
+\usefonttheme[onlylarge]{structurebold}
+\setbeamerfont*{frametitle}{size=\normalsize,series=\bfseries}
+\setbeamertemplate{navigation symbols}{}
+
+
+% Standard packages
+\usepackage[ngerman]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{graphics}
+\usepackage[T1]{fontenc}
+
+
+% Setup TikZ
+
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\tikzstyle{block}=[draw opacity=0.7,line width=1.4cm]
+
+
+% Author, Title, etc.
+
+\title[Freude am Kopfrechnen vermitteln] 
+{%
+  Freude am Kopfrechnen vermitteln%
+}
+\subtitle{\textcolor{black}{Planung, Durchführung und Auswertung eines Themenblockes, mit dem Ziel OberstufenschülerInnen zum Kopfrechnen zu motivieren}}
+
+\author[Jérôme Landtwing]
+{
+  Jérôme Landtwing, betreut von Hans-Heinrich Huwiler
+}
+
+\institute[]{
+ }
+
+\date[November 2016]
+{Kantonsschule Ausswerschwyz \\ Maturaarbeit 2016}
+
+
+
+% The main document
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Querschnitt}
+  \tableofcontents
+\end{frame}
+
+
+\section{Kopfrechnen}
+
+\subsection{Was ist Kopfrechnen?}
+
+\begin{frame}{Definition Kopfrechnen}
+ \huge \glqq Kopfrechnen, bei dem ohne eine Notation von Zwischenschritten die Lösung einer Aufgabe im Kopf erfolgt (dies geschieht unter Ausnutzung von Strategien)[ \dots ]\grqq
+\end{frame}
+\begin{frame}{Definition Kopfrechnen}
+ \huge \glqq Kopfrechnen, bei dem ohne eine Notation von Zwischenschritten die Lösung einer Aufgabe im Kopf erfolgt \alert{(dies geschieht unter Ausnutzung von Strategien)}[ \dots ]\grqq
+\end{frame}
+%%
+
+\subsection{Kopfrechnen: Strategien}
+\begin{frame}{Strategien}
+	\begin{block}{Grundlagen}
+	\begin{itemize}
+		\item Mathematische Umformungen
+		\item Vereinfachung des Rechenweges
+		\item Vielseitig anwendbar
+	\end{itemize}
+	\end{block}
+	
+	\begin{block}{Ziel}
+	Die Rechnung umformen, um möglichst einfach an das Resultat zu gelangen.
+	\end{block}
+\end{frame}
+
+\begin{frame}{Strategien}
+	\begin{block}{Funktionsweise}
+	\begin{itemize}
+		\item Rechenweg vereinfachen
+		\item Schwieriges einfach machen
+		\item Rechenregeln kennen, anwenden, ausnützen
+		\item \alert{Mathematisch korrekt!}
+	\end{itemize}
+	\end{block}
+
+	\begin{block}{Ziel}
+		Einen möglichst einfachen Rechenweg kreieren.
+	\end{block}
+\end{frame}
+
+\begin{frame}{Strategien}
+	\begin{block}{Beispiele}
+	\begin{itemize}
+		\item Reihenfolge von Summanden bzw. Faktoren verändern
+		\item Grosse Zahlen in kleinere aufteilen
+		\item Unbekanntes durch bekanntes ersetzen
+	\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}{Strategien: Ein Beispiel}
+	\begin{block}{Subtraktion von 1000}
+	Alle Stellen von 9, die Einerstelle von 10 subtrahieren.
+	\end{block}
+	
+	\begin{equation*} 1000 - 852 = ? \end{equation*}
+	\begin{equation*} 1000 - 753 = ? \end{equation*}
+\end{frame}
+
+\begin{frame}{Subtraktion von 1000}
+	\begin{block}{Subtraktion von 1000}
+	Alle Stellen von 9, die Einerstelle von 10 subtrahieren.
+	\end{block}
+	
+	\begin{block}{1000 -  \textcolor{ProcessBlue}{8}\textcolor{green}{5}\textcolor{orange}{2} = ?}
+	\begin{itemize} 
+	\item $9 - \textcolor{ProcessBlue}{8} = 1$
+	\item $9 - \textcolor{green}{5} = 4$
+	\item $10 - \textcolor{orange}{2} = 8$
+	\end{itemize}
+	\end{block}
+	
+	\begin{equation*} 1000 - 852 = 148 \end{equation*}
+	\begin{equation*} 1000 - 753 = ?\end{equation*}
+\end{frame}
+
+
+
+\section{Projekt}
+\subsection{Rahmenbedingungen}
+\begin{frame}{Projekt}
+	\begin{block}{Rahmenbedingunen}
+	\begin{itemize}
+		\item 2 Klassen
+		\item 24 Schüler
+		\item 90 Minuten: Theorieleketion
+		\item 3 Wochen: Übungsphase
+		\item 3 Übungseinheiten pro Woche
+		\item 5 Minuten: Üben zu Beginn jeder Mathematikstunde
+	\end{itemize}
+	\end{block}
+\end{frame}
+\subsection{Ziele}
+\begin{frame}{Projekt}
+	\begin{block}{Ziele}
+	\begin{itemize}
+		\item Techniken vermitteln
+		\item Freude am Kopfrechnen vermitteln
+		\item Zum Kopfrechnen motivieren
+		\item Kopfrechenkompetenz erweitern
+	\end{itemize}
+	\end{block}
+\end{frame}
+%%
+%%
+%%
+\section{Auswertung}
+\subsection*{Einführung}
+
+\begin{frame}
+	\begin{block}{Boxplot}
+	\begin{itemize}
+		\item Median = Mittlerer Testwert
+		\item Quantil = 25\% der Testwerte
+		\item Ausreisser
+	\end{itemize}
+	\end{block}
+	
+	\begin{figure}
+	\centering
+	\includegraphics[height=3cm]{Abbildungen/boxplot_demo}
+	\caption{Beispiel eines Boxplottes}
+	\end{figure}
+\end{frame}
+
+
+\subsection{Quantitätsverlauf}
+\begin{frame}{Quantitätsverlauf}
+	\begin{figure}
+	\centering
+	\includegraphics[height=9cm, angle = -90, trim= 1.4cm 0cm 0cm 0cm, clip=true]{Abbildungen/gesamtverlauf_boxplot}
+	\caption{height = 9cm}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Quantitätsverlauf}
+	\begin{block}{Erkentnisse}
+	\begin{itemize}
+		\item Steigerung erkennbar
+		\item Stetige Verbesserung
+		\item \alert{Alle SchülerInnen waren fähig, mehr Aufgaben richtig zu lösen}
+	\end{itemize}
+	\end{block}
+\end{frame}
+
+\subsection{Qualitätsverlauf}
+\begin{frame}{Qualitätsverlauf}
+	\begin{figure}
+		\includegraphics[height =9cm, angle = -90, trim=1.4cm 0cm 0cm 0cm, clip=true]{Abbildungen/fehlerquote_verlauf}
+		\caption{Hier Verlauf der Fehlerquoten einfügen}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Quantitätsverlauf}
+	\begin{block}{Erkentnisse}
+	\begin{itemize}
+		\item Fehlerquote wurde stetig reduziert
+		\item Die Streuung unter den besseren SchülerInnen wurde immer kleiner.
+		\item \alert{Die meisten Schüler konnten ihre Fehlerquote reduzieren}
+	\end{itemize}
+	\end{block}
+\end{frame}
+%%%	
+
+\subsection{Auswertung: Ziele}
+
+\begin{frame}{Ziel: Techniken erlernen}
+	\begin{figure}
+	\centering
+	\includegraphics[width=10cm, trim=0cm 0cm 0cm 1.1cm, clip=true]{Abbildungen/MA_Kreisdiagramm_Technik}
+	\caption{Rund $\frac{2}{3}$ der Schüler erlernten neue Techniken}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Ziel: Freude am Kopfrechnen gewinnen}
+	\begin{figure}
+	\centering
+	\includegraphics[width=10cm, trim=0cm 0cm 0cm 1.1cm, clip=true]{Abbildungen/MA_Kreisdiagramm_Freude}
+	\caption{Rund $\frac{1}{3}$ der Schüler gewannen Freude am Kopfrechnen}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Ziel: Motivation steigern}
+	\begin{figure}
+	\centering
+	\includegraphics[width=10cm, trim=0cm 0cm 0cm 1.1cm, clip=true]{Abbildungen/MA_Kreisdiagramm_Motivation}
+	\caption{Rund $\frac{4}{5}$ der Schüler gingen nach dem Projekt motivierter an Kopfrechnungen heran}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Ziel: Kopfrechenkompetenz verbessern}
+	\begin{figure}
+	\centering
+	\includegraphics[width=10cm, trim=0cm 0cm 0cm 1.1cm, clip=true]{Abbildungen/MA_Kreisdiagramm_Kompetenz}
+	\caption{Alle Schüler gaben an, ihre Kopfrechenfähigkeiten verbessert zu haben}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Meine Erfahrungen}
+	\begin{block}{}
+	\begin{itemize}
+		\item Spass und Freude
+		\item Einblick in den Lehrerberuf
+		\item Wertvolle Erfahrung
+	\end{itemize}
+	\end{block}	
+\end{frame}
+
+\section{Abschluss}
+\subsection*{Fragen / Unklarheiten / Anregungen}
+\begin{frame}
+
+	\centering	\Huge Fragen? \\
+
+\end{frame}
+\subsection{}
+\begin{frame}
+
+	\centering	\Huge{Danke!} \\[1.5cm]
+	\large
+	Für Fragen, Anregungen, Informationen stehe ich gerne zu Verfügung
+
+\end{frame}
+
+
+\end{document}
+
