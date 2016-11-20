@@ -6,7 +6,6 @@
 \setbeamerfont*{frametitle}{size=\normalsize,series=\bfseries}
 \setbeamertemplate{navigation symbols}{}
 
-
 % Standard packages
 \usepackage[ngerman]{babel}
 \usepackage[latin1]{inputenc}
@@ -14,58 +13,52 @@
 \usepackage[T1]{fontenc}
 
 
-% Setup TikZ
-
-\usepackage{tikz}
-\usetikzlibrary{arrows}
-\tikzstyle{block}=[draw opacity=0.7,line width=1.4cm]
-
-
 % Author, Title, etc.
-
 \title[Freude am Kopfrechnen vermitteln] 
-{%
-  Freude am Kopfrechnen vermitteln%
-}
+{ Freude am Kopfrechnen vermitteln}
+
 \subtitle{\textcolor{black}{Planung, Durchführung und Auswertung eines Themenblockes, mit dem Ziel OberstufenschülerInnen zum Kopfrechnen zu motivieren}}
+\author[Jérôme Landtwing]{Jérôme Landtwing, betreut von Hans-Heinrich Huwiler}
 
-\author[Jérôme Landtwing]
-{
-  Jérôme Landtwing, betreut von Hans-Heinrich Huwiler
-}
-
-\institute[]{
- }
-
-\date[November 2016]
-{Kantonsschule Ausserschwyz \\ Maturaarbeit 2016}
+\date[November 2016]{Kantonsschule Ausserschwyz \\ Maturaarbeit 2016}
+\institute[]{}
 
 
-
-% The main document
-
+%--------------------------------------------------
+% MAIN DOCUMENT
+%-------------------------------------------------
 \begin{document}
 
-\begin{frame}
-  \titlepage
+%------------------		TITELFOLIE
+\begin{frame}	\titlepage	\end{frame}
+%------------------
+%----------------------
+\begin{frame}{} \centering
+ \huge \glqq Ich erfreute mich vorzüglich an der Mathematik wegen der Gewissheit und Sicherheit ihrer Beweise; allein ich erkannte ihren Nutzen noch nicht.\grqq \\[1cm]
+\centering \normalsize (Réne Descartes)
 \end{frame}
+%------------------ 	INHALTSVERZEICHNIS
+\begin{frame}{Querschnitt}	\tableofcontents	\end{frame}
 
-\begin{frame}{Querschnitt}
-  \tableofcontents
-\end{frame}
-
-
+%------------------------
+% EINFÜHRUNG KOPFRECHNEN
+%------------------------
 \section{Kopfrechnen}
-
 \subsection{Was ist Kopfrechnen?}
-
-\begin{frame}{Definition Kopfrechnen}
+%----------------------
+\begin{frame}{Definition Kopfrechnen} \centering
  \huge Kopfrechnen ist, wenn ohne eine Notation von Zwischenschritten - unter Ausnutzung von Strategien - die Lösung einer Aufgabe im Kopf erfolgt \\[1cm]\centering \normalsize (nach Krauthausen \& Scherer)
 \end{frame}
-\begin{frame}{Definition Kopfrechnen}
+%---------------------
+\begin{frame}{Definition Kopfrechnen} \centering
  \huge Kopfrechnen ist, wenn ohne eine Notation von Zwischenschritten - \textcolor{red}{unter Ausnutzung von Strategien} - die Lösung einer Aufgabe im Kopf erfolgt \\[1cm]\centering \normalsize (nach Krauthausen \& Scherer)
-\end{frame}%%
+\end{frame}
 
+%-------------------------------------------
+%-------------------------------------------
+%	STRATEGIEN
+%-------------------------------------------
+%-------------------------------------------
 \subsection{Strategien}
 \begin{frame}{Strategien}
 	\begin{block}{Grundlagen}
@@ -77,25 +70,24 @@
 	\end{block}
 	
 	\begin{block}{Ziel}
-	Die Rechnung umformen, um möglichst einfach an das Resultat zu gelangen.
+	Den Rechenweg möglichst geschickt gestalten.
 	\end{block}
 \end{frame}
-
+%---------------------
+%--------STRATEGIEN FUNKTIONSWEISE
 \begin{frame}{Strategien}
 	\begin{block}{Funktionsweise}
 	\begin{itemize}
-		\item Rechenweg vereinfachen
 		\item Schwieriges einfach machen
 		\item Rechenregeln kennen, anwenden, ausnützen
 		\item \alert{Mathematisch korrekt!}
 	\end{itemize}
 	\end{block}
-
 	\begin{block}{Ziel}
 		Einen möglichst einfachen Rechenweg kreieren.
 	\end{block}
 \end{frame}
-
+%--------STRATEGIEN ALLGEMEINE BEISPIELE
 \begin{frame}{Strategien}
 	\begin{block}{Beispiele}
 	\begin{itemize}
@@ -105,43 +97,58 @@
 	\end{itemize}
 	\end{block}
 \end{frame}
-
-\begin{frame}{Strategien: Ein Beispiel}
+%-----------STRATEGIEN BEISPIELE
+\begin{frame}{Strategien: Beispiele}
 \Huge
-	\begin{equation*} 1000 - 852 = ? \end{equation*}
-	\begin{equation*} 1000 - 753 = ? \end{equation*}
+	\begin{equation*}  158 + 394 = ? \end{equation*}
+	\begin{equation*} 1000 - 381 = ? \end{equation*}
+	\begin{equation*} 21 \cdot 14 = ? \end{equation*}
 \end{frame}
-
-\begin{frame}{Strategien: Ein Beispiel}
+%-------------------------------------
+% HINÜBERSCHIEBEN
+%---------------------------------------
+\begin{frame}{Strategie: Addition}
+	\begin{block}{Hinüberschieben}
+		Von einem Summanden einen Betrag abziehen und beim anderen Summanden hinzuzählen.
+	\end{block}
+	\huge \begin{equation*} 158 + 394 = ?\end{equation*}
+	\begin{equation*} (158 \textcolor{red}{- 6}) + (394 \textcolor{red}{+ 6}) = ? \end{equation*}
+	\begin{equation*} 152 + 400 = 552  \end{equation*}
+\end{frame}
+%-----------------------------------------
+% SUBTRAKTION VON 1000
+%-----------------------------------------
+\begin{frame}{Strategie: Subtraktion}
 	\begin{block}{Subtraktion von 1000}
 	Alle Stellen von 9, die Einerstelle von 10 subtrahieren.
 	\end{block}
-	
-	\begin{equation*} 1000 - 852 = ? \end{equation*}
-	\begin{equation*} 1000 - 753 = ? \end{equation*}
+	\huge \begin{equation*} 1000 -  \textcolor{ProcessBlue}{3}\textcolor{green}{8}\textcolor{orange}{1} =? \end{equation*} \normalsize
+	\begin{table}
+	\begin{tabular}{l  c | c | c}
+	 &  & Subtrahieren von: & Ergibt:  \\
+	 Hunderterstelle: 	& \textcolor{ProcessBlue}{3} 	& 9 	& 6	\\
+	 Zehnerstelle: 		& \textcolor{green}{8}		& 9 	& 1	\\
+	 Einerstelle:  		& \textcolor{orange}{1} 		& 10	& 9	\\
+	\end{tabular}
+	\end{table}
 \end{frame}
-%-----------------------------------------------------------
-% 
-%----------------------------------------------------------
-\begin{frame}{Subtraktion von 1000}
-	\begin{block}{Subtraktion von 1000}
-	Alle Stellen von 9, die Einerstelle von 10 subtrahieren.
+%-----------------------------------------
+% SUMMEN BILDEN
+%-----------------------------------------
+\begin{frame}{Strategien: Multiplikation}
+	\begin{block}{Summen bilden}
+		Einen Faktor in eine Summe umwandeln, um die Multiplikation in Teilschritte aufzuteilen.
 	\end{block}
 	
-	\begin{block}{1000 -  \textcolor{ProcessBlue}{8}\textcolor{green}{5}\textcolor{orange}{2} =?}
-	\begin{itemize} 
-	\item $9 - \textcolor{ProcessBlue}{8} = 1$
-	\item $9 - \textcolor{green}{5} = 4$
-	\item $10 - \textcolor{orange}{2} = 8$
-	\end{itemize}
-	\end{block}
-	
-	\begin{equation*} 1000 - 852 = 148 \end{equation*}
-	\begin{equation*} 1000 - 753 = ?\end{equation*}
+	\huge \begin{equation*} 21 \cdot 14 = ?\end{equation*}
+	\begin{equation*} (20 + 1) \cdot 14 = ? \end{equation*}
+	\begin{equation*} 280 + 14 = 294 \end{equation*}
 \end{frame}
-
-
-
+%-------------------------------
+%-------------------------------
+%	PROJEKT
+%-------------------------------
+%-------------------------------
 \section{Projekt}
 \subsection{Rahmenbedingungen}
 \begin{frame}{Projekt}
@@ -156,6 +163,7 @@
 	\end{itemize}
 	\end{block}
 \end{frame}
+%---------------- ZIELE
 \subsection{Ziele}
 \begin{frame}{Projekt}
 	\begin{block}{Ziele}
@@ -167,12 +175,9 @@
 	\end{itemize}
 	\end{block}
 \end{frame}
-%%
-%%
-%%
+%-------------- AUSWERTUNG
 \section{Auswertung}
 \subsection*{Einführung}
-
 \begin{frame}
 	\begin{block}{Boxplot}
 	\begin{itemize}
@@ -181,15 +186,13 @@
 		\item Ausreisser
 	\end{itemize}
 	\end{block}
-	
 	\begin{figure}
 	\centering
-	\includegraphics[height=3cm]{Abbildungen/boxplot_demo}
+	\includegraphics[height=3cm, trim= 0cm 3cm 0cm 0cm, clip = true]{Abbildungen/boxplot_demo}
 	\caption{Beispiel eines Boxplottes}
 	\end{figure}
 \end{frame}
-
-
+%------------------		QUANTITÄTSVERLAUF
 \subsection{Quantitätsverlauf}
 \begin{frame}{Quantitätsverlauf}
 	\begin{figure}
@@ -198,9 +201,9 @@
 	\caption{Chronologischer Verlauf der Quantität}
 	\end{figure}
 \end{frame}
-
+%--------------------- QUANTITÄTSVERLAUF-ERKENNTNISSE
 \begin{frame}{Quantitätsverlauf}
-	\begin{block}{Erkentnisse}
+	\begin{block}{Erkenntnisse}
 	\begin{itemize}
 		\item Steigerung erkennbar
 		\item Stetige Verbesserung
@@ -208,7 +211,7 @@
 	\end{itemize}
 	\end{block}
 \end{frame}
-
+%---------------------- QUALITÄTSVERLAUF
 \subsection{Qualitätsverlauf}
 \begin{frame}{Qualitätsverlauf}
 	\begin{figure}
@@ -216,9 +219,9 @@
 		\caption{Chronologischer Verlauf der Fehlerquote}
 	\end{figure}
 \end{frame}
-
+%----------------- QUALITÄTSVERLAUF - ERKENNTNISE
 \begin{frame}{Quantitätsverlauf}
-	\begin{block}{Erkentnisse}
+	\begin{block}{Erkenntnisse}
 	\begin{itemize}
 		\item Fehlerquote wurde stetig reduziert
 		\item Die Streuung unter den besseren SchülerInnen wurde immer kleiner.
@@ -226,10 +229,9 @@
 	\end{itemize}
 	\end{block}
 \end{frame}
-%%%	
-
+%-------------- AUSWERTUNG ZIELE	
 \subsection{Auswertung: Ziele}
-
+%------------- TECHNIKEN
 \begin{frame}{Ziel: Techniken erlernen}
 	\begin{figure}
 	\centering
@@ -237,7 +239,7 @@
 	\caption{Rund $\frac{2}{3}$ der SchülerInnen erlernten neue Techniken}
 	\end{figure}
 \end{frame}
-
+%------------------- FREUDE
 \begin{frame}{Ziel: Freude am Kopfrechnen gewinnen}
 	\begin{figure}
 	\centering
@@ -245,7 +247,7 @@
 	\caption{Rund $\frac{1}{3}$ der SchülerInnen gewannen Freude am Kopfrechnen}
 	\end{figure}
 \end{frame}
-
+%----------------- MOTIVATION
 \begin{frame}{Ziel: Motivation steigern}
 	\begin{figure}
 	\centering
@@ -253,7 +255,7 @@
 	\caption{Rund $\frac{4}{5}$ der SchülerInnen gingen nach dem Projekt motivierter an Kopfrechnungen heran}
 	\end{figure}
 \end{frame}
-
+%---------------- KOPFRECHENKOMPETENZ
 \begin{frame}{Ziel: Kopfrechenkompetenz verbessern}
 	\begin{figure}
 	\centering
@@ -261,7 +263,7 @@
 	\caption{Alle SchülerInnen gaben an, ihre Kopfrechenfähigkeiten verbessert zu haben}
 	\end{figure}
 \end{frame}
-
+%------------- ERFAHRUNGEN
 \begin{frame}{Meine Erfahrungen}
 	\begin{block}{}
 	\begin{itemize}
@@ -271,23 +273,29 @@
 	\end{itemize}
 	\end{block}	
 \end{frame}
-
-\section{Abschluss}
-\subsection*{Fragen / Unklarheiten / Anregungen}
-\begin{frame}
-
-	\centering	\Huge Fragen? \\
-
+%--------------------
+\subsection*{Zusammenfassung}
+\begin{frame}{Zusammenfassung}
+	\begin{table}
+	\centering
+	\begin{tabular}{c c   c | c c}
+	 \multicolumn{2}{c}{ \textbf{Aufwand}}	&&& \textbf{Ertrag} 	\\ \cline{1-2} \cline{5-5}
+	 90min 	& Theorielektion 	&&& Freude	 \\
+	 25min	& Übungsserien	&&& Motivation \\ \cline{1-1}
+	 115min	&				&&& Leistungssteigerung	\\
+	\end{tabular}
+	\caption{Vergleich Aufwand und Ertrag}
+	\end{table}
 \end{frame}
-\subsection{}
-\begin{frame}
-
-	\centering	\Huge{Danke!} \\[1.5cm]
-	\large
-	Für Fragen, Anregungen, Informationen stehe ich gerne zu Verfügung
-
+%----------------------------
+%		ABSCHLUSS
+%---------------------------
+\section{Abschluss}
+\subsection*{}
+\begin{frame}	\centering	\Huge Fragen? \end{frame}
+\begin{frame}	\centering	\Huge{Danke!} \\[1.5cm]
+	\large	Für Fragen, Anregungen, Informationen stehe ich gerne zu Verfügung
 \end{frame}
 
 
 \end{document}
-
