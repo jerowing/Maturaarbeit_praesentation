@@ -3,74 +3,80 @@
 \headcommand {\beamer@framepages {1}{1}}
 \headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
 \headcommand {\beamer@framepages {2}{2}}
-\headcommand {\sectionentry {1}{Kopfrechnen}{3}{Kopfrechnen}{0}}
-\headcommand {\beamer@sectionpages {1}{2}}
-\headcommand {\beamer@subsectionpages {1}{2}}
-\headcommand {\beamer@subsectionentry {0}{1}{1}{3}{Was ist Kopfrechnen?}}\headcommand {\beamer@subsectionpages {3}{2}}
-\headcommand {\slideentry {1}{1}{1}{3/3}{Was ist Kopfrechnen?}{0}}
+\headcommand {\slideentry {0}{0}{3}{3/3}{}{0}}
 \headcommand {\beamer@framepages {3}{3}}
-\headcommand {\slideentry {1}{1}{2}{4/4}{Was ist Kopfrechnen?}{0}}
+\headcommand {\sectionentry {1}{Kopfrechnen}{4}{Kopfrechnen}{0}}
+\headcommand {\beamer@sectionpages {1}{3}}
+\headcommand {\beamer@subsectionpages {1}{3}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{4}{Was ist Kopfrechnen?}}\headcommand {\beamer@subsectionpages {4}{3}}
+\headcommand {\slideentry {1}{1}{1}{4/4}{Was ist Kopfrechnen?}{0}}
 \headcommand {\beamer@framepages {4}{4}}
-\headcommand {\beamer@subsectionentry {0}{1}{2}{5}{Strategien}}\headcommand {\beamer@subsectionpages {3}{4}}
-\headcommand {\slideentry {1}{2}{1}{5/5}{Strategien}{0}}
+\headcommand {\slideentry {1}{1}{2}{5/5}{Was ist Kopfrechnen?}{0}}
 \headcommand {\beamer@framepages {5}{5}}
-\headcommand {\slideentry {1}{2}{2}{6/6}{Strategien}{0}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{6}{Strategien}}\headcommand {\beamer@subsectionpages {4}{5}}
+\headcommand {\slideentry {1}{2}{1}{6/6}{Strategien}{0}}
 \headcommand {\beamer@framepages {6}{6}}
-\headcommand {\slideentry {1}{2}{3}{7/7}{Strategien}{0}}
+\headcommand {\slideentry {1}{2}{2}{7/7}{Strategien}{0}}
 \headcommand {\beamer@framepages {7}{7}}
-\headcommand {\slideentry {1}{2}{4}{8/8}{Strategien}{0}}
+\headcommand {\slideentry {1}{2}{3}{8/8}{Strategien}{0}}
 \headcommand {\beamer@framepages {8}{8}}
-\headcommand {\slideentry {1}{2}{5}{9/9}{Strategien}{0}}
+\headcommand {\slideentry {1}{2}{4}{9/9}{Strategien}{0}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\slideentry {1}{2}{6}{10/10}{Strategien}{0}}
+\headcommand {\slideentry {1}{2}{5}{10/10}{Strategien}{0}}
 \headcommand {\beamer@framepages {10}{10}}
-\headcommand {\sectionentry {2}{Projekt}{11}{Projekt}{0}}
-\headcommand {\beamer@sectionpages {3}{10}}
-\headcommand {\beamer@subsectionpages {5}{10}}
-\headcommand {\beamer@subsectionentry {0}{2}{1}{11}{Rahmenbedingungen}}\headcommand {\beamer@subsectionpages {11}{10}}
-\headcommand {\slideentry {2}{1}{1}{11/11}{Rahmenbedingungen}{0}}
+\headcommand {\slideentry {1}{2}{6}{11/11}{Strategien}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\beamer@subsectionentry {0}{2}{2}{12}{Ziele}}\headcommand {\beamer@subsectionpages {11}{11}}
-\headcommand {\slideentry {2}{2}{1}{12/12}{Ziele}{0}}
+\headcommand {\slideentry {1}{2}{7}{12/12}{Strategien}{0}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\sectionentry {3}{Auswertung}{13}{Auswertung}{0}}
-\headcommand {\beamer@sectionpages {11}{12}}
-\headcommand {\beamer@subsectionpages {12}{12}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{13}{Einf\"uhrung}}\headcommand {\beamer@subsectionpages {13}{12}}
-\headcommand {\slideentry {3}{1}{1}{13/13}{Einf\"uhrung}{0}}
+\headcommand {\sectionentry {2}{Projekt}{13}{Projekt}{0}}
+\headcommand {\beamer@sectionpages {4}{12}}
+\headcommand {\beamer@subsectionpages {6}{12}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{13}{Rahmenbedingungen}}\headcommand {\beamer@subsectionpages {13}{12}}
+\headcommand {\slideentry {2}{1}{1}{13/13}{Rahmenbedingungen}{0}}
 \headcommand {\beamer@framepages {13}{13}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{14}{Quantit\"atsverlauf}}\headcommand {\beamer@subsectionpages {13}{13}}
-\headcommand {\slideentry {3}{2}{1}{14/14}{Quantit\"atsverlauf}{0}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{14}{Ziele}}\headcommand {\beamer@subsectionpages {13}{13}}
+\headcommand {\slideentry {2}{2}{1}{14/14}{Ziele}{0}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\slideentry {3}{2}{2}{15/15}{Quantit\"atsverlauf}{0}}
+\headcommand {\sectionentry {3}{Auswertung}{15}{Auswertung}{0}}
+\headcommand {\beamer@sectionpages {13}{14}}
+\headcommand {\beamer@subsectionpages {14}{14}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{15}{Einf\"uhrung}}\headcommand {\beamer@subsectionpages {15}{14}}
+\headcommand {\slideentry {3}{1}{1}{15/15}{Einf\"uhrung}{0}}
 \headcommand {\beamer@framepages {15}{15}}
-\headcommand {\beamer@subsectionentry {0}{3}{3}{16}{Qualit\"atsverlauf}}\headcommand {\beamer@subsectionpages {14}{15}}
-\headcommand {\slideentry {3}{3}{1}{16/16}{Qualit\"atsverlauf}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{16}{Quantit\"atsverlauf}}\headcommand {\beamer@subsectionpages {15}{15}}
+\headcommand {\slideentry {3}{2}{1}{16/16}{Quantit\"atsverlauf}{0}}
 \headcommand {\beamer@framepages {16}{16}}
-\headcommand {\slideentry {3}{3}{2}{17/17}{Qualit\"atsverlauf}{0}}
+\headcommand {\slideentry {3}{2}{2}{17/17}{Quantit\"atsverlauf}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\beamer@subsectionentry {0}{3}{4}{18}{Auswertung: Ziele}}\headcommand {\beamer@subsectionpages {16}{17}}
-\headcommand {\slideentry {3}{4}{1}{18/18}{Auswertung: Ziele}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{18}{Qualit\"atsverlauf}}\headcommand {\beamer@subsectionpages {16}{17}}
+\headcommand {\slideentry {3}{3}{1}{18/18}{Qualit\"atsverlauf}{0}}
 \headcommand {\beamer@framepages {18}{18}}
-\headcommand {\slideentry {3}{4}{2}{19/19}{Auswertung: Ziele}{0}}
+\headcommand {\slideentry {3}{3}{2}{19/19}{Qualit\"atsverlauf}{0}}
 \headcommand {\beamer@framepages {19}{19}}
-\headcommand {\slideentry {3}{4}{3}{20/20}{Auswertung: Ziele}{0}}
+\headcommand {\beamer@subsectionentry {0}{3}{4}{20}{Auswertung: Ziele}}\headcommand {\beamer@subsectionpages {18}{19}}
+\headcommand {\slideentry {3}{4}{1}{20/20}{Auswertung: Ziele}{0}}
 \headcommand {\beamer@framepages {20}{20}}
-\headcommand {\slideentry {3}{4}{4}{21/21}{Auswertung: Ziele}{0}}
+\headcommand {\slideentry {3}{4}{2}{21/21}{Auswertung: Ziele}{0}}
 \headcommand {\beamer@framepages {21}{21}}
-\headcommand {\slideentry {3}{4}{5}{22/22}{Auswertung: Ziele}{0}}
+\headcommand {\slideentry {3}{4}{3}{22/22}{Auswertung: Ziele}{0}}
 \headcommand {\beamer@framepages {22}{22}}
-\headcommand {\sectionentry {4}{Abschluss}{23}{Abschluss}{0}}
-\headcommand {\beamer@sectionpages {13}{22}}
-\headcommand {\beamer@subsectionpages {18}{22}}
-\headcommand {\beamer@subsectionentry {0}{4}{1}{23}{Fragen / Unklarheiten / Anregungen}}\headcommand {\beamer@subsectionpages {23}{22}}
-\headcommand {\slideentry {4}{1}{1}{23/23}{Fragen / Unklarheiten / Anregungen}{0}}
+\headcommand {\slideentry {3}{4}{4}{23/23}{Auswertung: Ziele}{0}}
 \headcommand {\beamer@framepages {23}{23}}
-\headcommand {\beamer@subsectionentry {0}{4}{2}{24}{}}\headcommand {\beamer@subsectionpages {23}{23}}
-\headcommand {\slideentry {4}{2}{1}{24/24}{}{0}}
+\headcommand {\slideentry {3}{4}{5}{24/24}{Auswertung: Ziele}{0}}
 \headcommand {\beamer@framepages {24}{24}}
-\headcommand {\beamer@partpages {1}{24}}
-\headcommand {\beamer@subsectionpages {24}{24}}
-\headcommand {\beamer@sectionpages {23}{24}}
-\headcommand {\beamer@documentpages {24}}
-\headcommand {\def \inserttotalframenumber {24}}
+\headcommand {\beamer@subsectionentry {0}{3}{5}{25}{Zusammenfassung}}\headcommand {\beamer@subsectionpages {20}{24}}
+\headcommand {\slideentry {3}{5}{1}{25/25}{Zusammenfassung}{0}}
+\headcommand {\beamer@framepages {25}{25}}
+\headcommand {\sectionentry {4}{Abschluss}{26}{Abschluss}{0}}
+\headcommand {\beamer@sectionpages {15}{25}}
+\headcommand {\beamer@subsectionpages {25}{25}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{26}{}}\headcommand {\beamer@subsectionpages {26}{25}}
+\headcommand {\slideentry {4}{1}{1}{26/26}{}{0}}
+\headcommand {\beamer@framepages {26}{26}}
+\headcommand {\slideentry {4}{1}{2}{27/27}{}{0}}
+\headcommand {\beamer@framepages {27}{27}}
+\headcommand {\beamer@partpages {1}{27}}
+\headcommand {\beamer@subsectionpages {26}{27}}
+\headcommand {\beamer@sectionpages {26}{27}}
+\headcommand {\beamer@documentpages {27}}
+\headcommand {\def \inserttotalframenumber {27}}
